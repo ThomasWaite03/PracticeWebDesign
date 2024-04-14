@@ -7,15 +7,15 @@
         <title>Home</title>
 
         <!-- Stylesheets -->
-        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+        <link href="css/bootstrap.min.css" rel="stylesheet">
         <link href="css/home.css" rel="stylesheet" type="text/css">
 
         <!-- Scripts -->
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+        <script src="js/bootstrap.bundle.min.js"></script>
     </head>
     <body>
         <!-- The Navbar + Top Section -->
-        <div class="h-100 hero-image">
+        <section class="bg-lake-blanche">
             <!-- The Navbar -->
             <nav class="navbar navbar-expand-lg sticky-top navbar-dark">
                 <div class="container-fluid">
@@ -65,14 +65,35 @@
                     </div>
                 </div>
             </div>
-        </div>
+        </section>
 
-        <div>
-            Testing
-        </div>
+        <!-- Second section content -->
+        <section class="container h-100 px-4">
+            <div class="row h-100">
+                <div class="d-flex flex-column col-6">
+                    <div class="my-auto">
+                        <h1 class="display-2 fw-bold lh-1" style="color: #152614;">Find</h1>
+                        <h1 class="display-2 fw-bold lh-1" style="color: #152614;">hiking groups</h1>
+                        <h1 class="display-2 fw-bold lh-1" style="color: #152614;">near you</h1>
+                    </div>
+                </div>
+                <div class="d-flex flex-column col-6" style="color: #1e441e;">
+                    <p class="my-auto fs-3">
+                        Step into the world of outdoor exploration with <b>Hike Utah</b>, the premier social platform for hiking enthusiasts. 
+                        Whether you're a seasoned trekker or a novice adventurer, our <b>community-driven</b> platform connects you with like-minded individuals and hiking groups near you. 
+                        From <b>sharing trail tips</b> to organizing group excursions, you'll be set to discover new trails, forge lasting connections, and embark on unforgettable journeys. 
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Third section content -->
+        <section class="bg-trees-image">
+
+        </section>
 
         <!-- Scripts -->
-        <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
-        <script src="scripts/home.js"></script>
+        <script src="js/jquery-3.7.1.min.js"></script>
+        <script src="js/home.js"></script>
     </body>
 </html>

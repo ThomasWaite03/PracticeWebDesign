@@ -3,9 +3,24 @@ html, body {
     width: 100%;
 }
 
-.hero-image {
+section {
+    height: 100%;
+}
+
+.bg-lake-blanche {
     /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
     background-image: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)), url("../images/lake_blanche.jpg");
+
+    /* Position and center the image to scale nicely on all screens */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.bg-trees-image {
+    /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
+    background-image: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)), url("../images/trees.jpg");
 
     /* Position and center the image to scale nicely on all screens */
     background-position: center;
