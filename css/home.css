@@ -32,4 +32,9 @@ section {
 /* Prevent overscrolling in the last section. */
 section:last-of-type {
     overscroll-behavior-block: contain;
+    overflow-y: hidden;
+}
+
+section:first-of-type {
+    overflow-y: hidden;
 }
